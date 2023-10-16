@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px !important;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  li {
+    margin: 0px 10px;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: rgba(255, 127, 80, 0.654);
+      &:active,
+      &:focus,
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
+span {
+  color: gray;
+}
